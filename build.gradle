@@ -1,0 +1,14 @@
+plugins {
+  id("org.jetbrains.intellij") version "1.15.0"
+}
+
+group = "com.example"
+version = "1.0-SNAPSHOT"
+
+repositories {
+  mavenCentral()
+}
+
+intellij {
+  version.set("2022.2.5")
+}
